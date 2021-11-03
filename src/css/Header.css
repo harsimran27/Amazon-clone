@@ -10,6 +10,7 @@
 
 .header_logo {
   width: 100px;
+  object-fit: contain;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 18px;
@@ -31,4 +32,40 @@
   padding: 5px;
   height: 22px !important;
   background-color: #cd9042;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header-optionOne {
+  font-size: 10px;
+}
+
+.header_optionTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_Link {
+  text-decoration: none;
+  color: white;
+}
+
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+}
+
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
 }
