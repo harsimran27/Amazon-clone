@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Header";
 
 let App = () => {
   return (
@@ -13,6 +14,7 @@ let App = () => {
             <h1>this is a login page</h1>
           </Route>
           <Route path="/">
+            <Header />
             <h1>this is a home page</h1>
           </Route>
         </Switch>
