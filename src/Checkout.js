@@ -14,7 +14,7 @@ const Checkout = () => {
             />
             {basket?.length === 0 ?
                 (
-                    <div>
+                    <div >
                         <h2>your shopping basket is empty</h2>
                         <p>you have no items in your basket. To but one or more items click to "Add to basket" next to the item.</p>
                     </div>
@@ -25,7 +25,7 @@ const Checkout = () => {
                         {basket.map((item) => (
                             <CheckoutProduct
                                 id={item.id}
-                                title={item.title}
+                                name={item.name}
                                 price={item.price}
                                 rating={item.rating}
                                 image={item.image}
