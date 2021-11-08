@@ -43,6 +43,7 @@ function Home() {
           price={12.99}
         />
         <Product
+          id="5628956289"
           image="https://m.media-amazon.com/images/I/61MCnLb9aNL._AC_UL320_.jpg"
           name="ZEPLIN ELECTRONICS USB Flash Drives 128GB Thumb Drive Data Storage Device - Black"
           rating={5}
@@ -51,6 +52,7 @@ function Home() {
       </div>
       <div className="home_row">
         <Product
+          id="4747409247"
           image="https://m.media-amazon.com/images/I/518dCHf9TyL._AC_UL320_.jpg"
           name="ViewSonic VA2759-SMH 27 Inch IPS 1080p Frameless LED Monitor with HDMI and VGA Inputs,Black"
           rating={4}
